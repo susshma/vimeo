@@ -1,0 +1,37 @@
+.playlist__wrapper {
+    margin: 3rem;
+}
+
+.video__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.video {
+    border: .5rem solid #fff;
+    background: black;
+}
+
+.video__active {
+    border: .5rem solid #00adef;
+    transform: scale(1.02);
+    transition: all .3s ease-in;
+    background: black;
+}
+  
+.video__info {
+    margin-left: 2rem;
+}
+
+.video__info .name {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+  
+.user {
+    color: #8699a6;
+    font-weight: 600;
+}

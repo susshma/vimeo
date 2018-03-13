@@ -1,0 +1,22 @@
+.video__name {
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+  
+.video__user {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.active_video {
+    height: 8rem;
+    margin: 1em 0;
+    border-bottom: 1px solid #D0D8DB;
+}
+
+.video__description {
+    color: #8699a6;
+    letter-spacing: .08rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

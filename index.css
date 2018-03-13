@@ -1,0 +1,49 @@
+html { 
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  font-size: 1.4rem;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+header .brand {
+  height: .2rem;
+  background-image: -webkit-linear-gradient(left,#73D2F6,#08C 22%,#7FC400 36%,#FFD583 48%,#FFB21E 63%,#FF4D4D 76%,#503873);
+}
+
+header .nav {
+  height: 6rem;
+  border-bottom: 1px solid #D0D8DB;
+  background-color: #EEF1F2;
+  padding: 0 30px;
+}
+
+content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.error {
+  margin: 10rem auto;
+  font-size: 3.2rem;
+  font-weight: 700;
+  width: 50%;
+  text-align: center;
+}
